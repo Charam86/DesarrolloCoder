@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0px;
+}
+
+.banner {
+  background: url(https://viajes.nationalgeographic.com.es/medio/2018/10/23/biblioteca-publica-de-estocolmo_61c07b65_1500x1000.jpg);
+
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  opacity: 95%;
+}
+
+body {
+  background-color: rgb(242, 199, 93);
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  color: rgb(59, 79, 97);
+}
+
+header {
+  background-color: rgb(17, 17, 17);
+  font-size: 1.2rem;
+  width: 100%;
+  border-bottom: aliceblue 0.5rem solid;
+
+  -webkit-box-shadow: 0px 9px 30px 25px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 9px 30px 25px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 9px 30px 25px rgba(0, 0, 0, 0.6);
+}
+
+ul {
+  text-align: right;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin: 1.5rem;
+  float: right;
+}
+
+ul li {
+  display: inline-flex;
+  margin: 0 4rem;
+}
+
+.descBreve {
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.biografia {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* separador */
+
+.separador {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  opacity: 70%;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* Primer titulo y su parrafo */
+
+.title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.conteinerParagraph {
+  width: 40%;
+  margin: 2rem auto;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.paragraph {
+  font-size: 1.2rem;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* video del inicio */
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  width: 65%;
+  height: 500px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.contenedor {
+  display: inline-flex;
+  width: 95%;
+}
+
+/* ------------------------------------------------------------------------- */
+/* segundo parrafo e imgaen */
+
+.contenedor__primerArticulo {
+  display: inline;
+
+  padding: 2rem;
+
+  width: 40%;
+}
+
+.subtitle__izquierda {
+  font-size: 2.9rem;
+  font-weight: 800;
+  margin: 0 auto;
+  display: block;
+}
+
+.paragraph__izquierda {
+  display: block;
+}
+
+.conteinerParagraph--alineadoIzquierda {
+  margin: 0 0;
+  font-weight: 400;
+  width: 80%;
+
+  padding: 4rem;
+}
+
+/* ------------------------------------------------------------------------- */
+.imagen {
+  width: 50rem;
+  padding: 3rem 3rem 3rem 3rem;
+  margin-left: 20rem;
+}
+
+.imagen__derecha {
+  width: 100%;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* Banner Hero - sobrenosotros.html */
+
+.heroTitle {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+.heroDesc {
+  font-size: 15px;
+  width: 100%;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.heroConteiner {
+  background-color: rgb(194, 134, 12);
+  display: inline-block;
+  width: 25%;
+  padding: 30px;
+  margin: 8rem 8rem 1rem;
+
+  -webkit-box-shadow: 0px 0px 22px 3px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0px 0px 22px 3px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 22px 3px rgba(255, 255, 255, 0.5);
+
+  -webkit-border-radius: 27px 27px 27px 27px;
+  -moz-border-radius: 27px 27px 27px 27px;
+  border-radius: 27px 27px 27px 27px;
+}
+
+.contactButtom {
+  width: 10%;
+  height: 10%;
+  margin: 0 8rem 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 120%;
+  color: rgba(97, 96, 96, 0.748);
+  background-color: rgb(255, 229, 190);
+  -webkit-border-radius: 100px 100px 100px 100px;
+  -moz-border-radius: 100px 100px 100px 100px;
+  border-radius: 100px 100px 100px 100px;
+  border: solid 2px #ffffff;
+}
+
+/* ------------------------------------------------------------------------- */
+footer {
+  background-color: black;
+  color: aliceblue;
+  list-style: none;
+  width: 100%;
+  height: 10rem;
+  justify-content: center;
+}
+
+.listaFooter {
+  display: inline-flex;
+  margin-top: 5rem;
+}

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina de museo</title>
+    <link rel="stylesheet" href="../assets/styles/styles.css" />
+  </head>
+  <body>
+    <!-- ----------------------------------------------------------  -->
+
+    <!-- Header -->
+
+    <header>
+      <!-- ----------------------------------------------------------  -->
+
+      <!-- Nav -->
+
+      <nav>
+        <div class="logoHeader">
+          <img
+            src="../assets/images/libro.png"
+            alt="Logo"
+            class="logo--header"
+          />
+          <h2 class="nombreSitio">La Biblioteca.com</h2>
+        </div>
+        <ul class="navConteiner">
+          <li>
+            <a href="../index.html">Inicio</a>
+            <ul class="subMenu">
+              <li><a href="#">Submenu1</a></li>
+              <li><a href="#">Submenu2</a></li>
+              <li><a href="#">Submenu3</a></li>
+              <li><a href="#">Submenu4</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="categorias.html">Categorias</a>
+            <ul class="subMenu">
+              <li><a href="#">Submenu1</a></li>
+              <li><a href="#">Submenu2</a></li>
+              <li><a href="#">Submenu3</a></li>
+              <li><a href="#">Submenu4</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="galeria.html">Galeria</a>
+            <ul class="subMenu">
+              <li><a href="#">Submenu1</a></li>
+              <li><a href="#">Submenu2</a></li>
+              <li><a href="#">Submenu3</a></li>
+              <li><a href="#">Submenu4</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="exhibiciones.html">Exhibiciones</a>
+            <ul class="subMenu">
+              <li><a href="#">Submenu1</a></li>
+              <li><a href="#">Submenu2</a></li>
+              <li><a href="#">Submenu3</a></li>
+              <li><a href="#">Submenu4</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="sobrenotroso.html">Sobre nosotros</a>
+            <ul class="subMenu">
+              <li><a href="#">Submenu1</a></li>
+              <li><a href="#">Submenu2</a></li>
+              <li><a href="#">Submenu3</a></li>
+              <li><a href="#">Submenu4</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ----------------------------------------------------------  -->
+
+    <main>
+      <!-- Banner -->
+
+      <div class="banner"></div>
+
+      <!-- ----------------------------------------------------------  -->
+
+      <!-- ----------------------------------------------------------  -->
+
+      <!-- Mensaje de bienvenida -->
+
+      <section class="seccionBuscador">
+        <h1 class="title">Bienvenido a la seccion de categorías.</h1>
+
+        <div class="buscador">
+          <input
+            class="buscadorBarra"
+            type="text"
+            name=""
+            id=""
+            placeholder="Escribe aquí el libro que deseas buscar..."
+          />
+          <button class="buscadorBoton">Buscar</button>
+        </div>
+
+        <p class="paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+          minima sapiente! Quibusdam ex nobis quos deserunt ea delectus deleniti
+          natus modi dicta vero sed animi itaque tempore nihil culpa mollitia
+          voluptas, qui explicabo nisi iure quisquam, dolorum eligendi rem!
+          Magni sint, neque natus itaque necessitatibus aut fuga, doloremque
+          ipsam in non mollitia doloribus voluptate at facilis dolor hic
+          consequatur eligendi optio iure eos odio sequi. Provident quasi
+          aliquam.
+        </p>
+      </section>
+
+      <!-- ----------------------------------------------------------  -->
+
+      <hr class="separador" />
+
+      <!-- Form -->
+
+      <section>
+        <br /><br />
+        <h2
+          style="text-align: center; font-size: 20px; font-family: sans-serif"
+        >
+          Agregar Libros
+        </h2>
+        <br />
+        <h3 style="text-align: center">
+          ¿Te gustaria sugerirnos algunos? Contanos
+        </h3>
+        <br /><br />
+
+        <form action="" style="background-color: rgba(240, 248, 255, 0.398)">
+          <fieldset>
+            <legend>Tu libro</legend>
+
+            <label for="nombre">Nombre/s de el/la autor/a: </label>
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Ingrese el nombre"
+            />
+
+            <br />
+            <br />
+
+            <label for="apellido">Apellido/s de el/la autor/a: </label>
+            <input type="text" name="apellido" id="apellido" />
+
+            <br />
+            <br />
+
+            <label for="nombreLibro">Nombre del libro:</label>
+            <input type="text" name="libro" id="nombreLibro" />
+
+            <br />
+            <br />
+
+            <label for="">Año del libro:</label>
+            <input type="date" name="añoLibro" id="" />
+
+            <br />
+            <br />
+
+            <label for="descripcionLibro">Descripcion del libro: </label>
+            <br />
+            <textarea
+              name="descripcion"
+              id="descripcionLibro"
+              cols="30"
+              rows="10"
+            ></textarea>
+
+            <br />
+            <br />
+
+            <label for="generoLiterario"> Genero literario:</label>
+            <br />
+            <input type="radio" name="genero" id="generoLiterario" />Terror
+            <input type="radio" name="genero" id="generoLiterario" />Fantasía
+            <input type="radio" name="genero" id="generoLiterario" />Comedia
+            <input type="radio" name="genero" id="generoLiterario" />Romance
+            <br />
+            <br />
+
+            <label for="email">Ingrese su e-mail:</label>
+            <input type="email" name="email" id="email" />
+
+            <br />
+            <br />
+
+            <input type="checkbox" name="aceptar" id="" />
+            <label for="">Aceptar terminos y condiciones</label>
+
+            <br /><br />
+
+            <input type="submit" value="Aceptar" />
+            <input type="reset" value="Cancelar" />
+            <br /><br />
+          </fieldset>
+        </form>
+      </section>
+
+      <br /><br />
+
+      <!-- ----------------------------------------------------------  -->
+
+      <section>
+        <div class="contenedor">
+          <div class="contenedor__primerArticulo">
+            <div
+              class="conteinerParagraph conteinerParagraph--alineadoIzquierda"
+            >
+              <h2 class="subtitle__izquierda">William Shakespeare</h2>
+              <p class="paragraph__izquierda">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                harum at amet facilis odio aspernatur quam aut molestias nobis
+                deserunt deleniti nihil blanditiis illo libero accusantium
+                accusamus sed ducimus eveniet quos perferendis facere dolorem,
+                asperiores ea excepturi? Officiis, nesciunt amet! Aperiam,
+                dolorem. Fugiat dolore ullam aliquid a. Vitae, fugit recusandae.
+              </p>
+            </div>
+            <div class="imagen">
+              <img
+                class="imagen__derecha"
+                src="https://ornelaventas.com.ar/wp-content/uploads/5218f039-bb71-4c0c-844c-3193b03b5c2b.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="contenedor">
+          <div class="contenedor__primerArticulo">
+            <div
+              class="conteinerParagraph conteinerParagraph--alineadoIzquierda"
+            >
+              <h2 class="subtitle__izquierda">J. R. R. Tolkien</h2>
+              <p class="paragraph__izquierda">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                harum at amet facilis odio aspernatur quam aut molestias nobis
+                deserunt deleniti nihil blanditiis illo libero accusantium
+                accusamus sed ducimus eveniet quos perferendis facere dolorem,
+                asperiores ea excepturi? Officiis, nesciunt amet! Aperiam,
+                dolorem. Fugiat dolore ullam aliquid a. Vitae, fugit recusandae.
+              </p>
+            </div>
+            <div class="imagen">
+              <img
+                class="imagen__derecha"
+                src="http://www.lanormal.com.ar/media/libros/272bf22cd68aa022c029613f9d1f3c9b.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="redes">
+        <ul class="listaFooter">
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Términos y condiciones</a></li>
+        </ul>
+      </div>
+      <div>
+        <img src="assets/images/libro.png" alt="Logo" class="logo--footer" />
+      </div>
+      <div class="servicios">
+        <ul class="listaFooter">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
